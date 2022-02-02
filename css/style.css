@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: white;
+  padding: 40px 0px;
+}
+
+footer {
+  background: rgb(12, 11, 11);
+  color: white;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+main {
+  margin: 30px;
+}
+
+.caja {
+  width: 300px;
+  border: 1px solid grey;
+  padding: 5px opx;
+}
+
+.box1 {
+  background: rgb(100, 230, 190);
+}
+.box2 {
+  background: rgb(90, 220, 160);
+}
+.box3 {
+  background: rgb(80, 210, 130);
+}
+.box4 {
+  background: rgb(70, 200, 100);
+}
+.box5 {
+  background: rgb(60, 190, 70);
+}
+.box6 {
+  background: rgb(50, 180, 40);
+}
+.box7 {
+  background: rgb(40, 170, 10);
+}
+
+.primerEjercicio {
+  display: flex;
+}
+
+.segundoEjercicio {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tercerEjercicio {
+  display: flex;
+  flex-direction: column;
+}
+
+.cuartoEjercicio {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.quintoEjercicio {
+  background: rgb(153, 153, 153);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sextoEjercicio {
+  background: rgb(153, 153, 153);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.septimoEjercicio {
+  background: rgb(153, 153, 153);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.octavoEjercicio {
+  background: rgb(153, 153, 153);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.novenoEjercicio {
+  background: rgb(153, 153, 153);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.decimoEjercicio {
+  background: rgb(153, 153, 153);
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
